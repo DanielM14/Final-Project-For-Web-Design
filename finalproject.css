@@ -1,4 +1,11 @@
 body {
     background-image: url("images/backgroundone.jpg");
     background-repeat: no-repeat;
-}
+    background-size: 100% 300000%;
+    color: #ffffff;
+  }
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
