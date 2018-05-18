@@ -5,10 +5,38 @@ body {
     color: #ffffff;
     font-weight: bold;
   }
-  img {
+img {
       display: block;
       margin-left: auto;
       margin-right: auto;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #111;
+  }
+p{
+  text-align: center;
+  }
+h1{
+  text-align: center;
   }
   /* Style the video: 100% width and height to cover the entire window */
   #myVideo {
@@ -44,26 +72,3 @@ body {
       background: #ddd;
       color: black;
   }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
